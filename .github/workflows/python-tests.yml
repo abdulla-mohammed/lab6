@@ -28,4 +28,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -v  # Run the tests and show detailed output
+          python -m pytest -v  # Run the tests and show detailed output
